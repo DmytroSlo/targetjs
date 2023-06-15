@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Таргет</title>
+    <link href = "style.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+        <div>
+            <h3 id = "userName" class = "userName"></h3>
+        </div>
+        <main>
+            <div class="conteiner">
+                <div>
+                    <div>
+                        <h1>Таргет</h1>
+                    </div>
+                    <div>
+                        <form autocomplete = "off" id = "myForm">
+                            <div>
+                                <h3>SN: </h3>
+                                <input placeholder = "Впиши SN" id = "snInput" />
+                            </div>
+                            <div>
+                                <h3>Action: </h3>
+                                <input placeholder = "Напишіть що ви зробили" id = "actionInput" />
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <p>Зроблено декодерів: <span id = "quatiti">0</span></p>
+                    </div>
+                    <div>
+                        <button onclick = "Target(event)">Записати</button>
+                    </div>
+                    <div id = "target"></div>
+                </div>
+            </div>
+        </main><
+    <script src = "main.js"></script>
+</body>
+</html>

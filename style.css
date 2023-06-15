@@ -1,0 +1,53 @@
+body{
+    background: #212121;
+    color: white;
+    font-family: Sylfaen;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.target-box{
+    border: 2px solid white;
+    width: 200px;
+    margin: 15px 0 15px 0;
+    transition: border-color 0.2s ease, border-radius 0.2s ease;
+}
+
+.target-box:hover{
+    border-color: green;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.target-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userName{
+    margin: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrong{
+    border-color: red;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.5);
+}
+
+.img-logo{
+    width: 10px;
+    height: 10px;
+    float: right;
+    position: relative;
+    top: -15px;
+}
